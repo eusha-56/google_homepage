@@ -1,0 +1,1 @@
+This is my first HTML project with CSS. I tried my best to copy Google homepage. Credit goes to theodinproject.com
