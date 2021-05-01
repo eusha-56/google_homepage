@@ -22,11 +22,12 @@
 #centerize{
   display: block;  
   padding-top: 50px;
-  text-align:center;
+  text-align: center;
 }
 #logo{
 	width: 40%;
 	max-width: 300px;
+	min-width: 250px;
 	height: auto;
 }
 #search_bar{
@@ -37,7 +38,8 @@
 	height: 30px;
 	width: 80%;
 	max-width: 500px;
-	border: solid 0px;
+	min-width: 300px;
+	border: solid 2px #b8b6b6;
 	border-radius: 20px;
 	padding: 0 0 0 30px;
 }
