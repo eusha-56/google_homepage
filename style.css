@@ -34,12 +34,15 @@
 	background-image: url("image/searching.png");
 	background-repeat: no-repeat;
 	background-position: 5px 5px;
-	border: solid 2px #888888; 
 	height: 30px;
 	width: 80%;
 	max-width: 500px;
-	border-radius: 5px;
+	border: solid 0px;
+	border-radius: 20px;
 	padding: 0 0 0 30px;
+}
+#search_bar:focus{
+	outline: none;
 }
 #nav1,#nav2{
 	display: inline-block;
