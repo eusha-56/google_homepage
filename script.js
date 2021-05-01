@@ -7,6 +7,3 @@ search.addEventListener("keyup",function(event){
 		Search()
 	}
 });
-function Sorry() {
-	return alert('Sorry this feature is not available now');
-}
