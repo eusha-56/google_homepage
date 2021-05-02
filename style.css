@@ -12,17 +12,16 @@
 .link{
 	text-decoration: none;
 	color: black;
-	padding: 0.1cm;
+	margin: 0.1cm;
 }
 .top_left{
 	right: 0.3cm;
 	display: inline-block;
 	float: right;
-	margin: 0.2cm 0.2cm 0.2cm 0;
+	padding: 0.2cm 0.2cm 0.2cm 0;
 }
 .center{
 	width: 99%;
-	height: 100%;
 	display: flex;
 	justify-content: center;
 }
@@ -30,7 +29,7 @@
 	max-width: 8cm;
 	min-width: 4cm;
 	width: 60%;
-	margin-top: 1cm;
+	padding-top: 1cm;
 }
 .sb_img{
 	height: 0.8cm;
@@ -52,13 +51,15 @@
 .middle{
 	margin: 1cm 0.5cm 1cm 0.5cm;
 }
-.nav{
-	padding: 0 0.3cm 0.1cm 0.3cm;
+#bottom{
+	height: 100%;
 }
-.bottom{
-  position: fixed;
-  bottom: 1cm;
-  width: 100%;
-  min-width: 5cm;
-  text-align: center;
+#upper_nav,#lower_nav{
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+}
+.nav{
+	padding: 15px;
+	color: #70757a;
 }
