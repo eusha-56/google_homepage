@@ -89,6 +89,16 @@ body{
 		right: 30px;
 	}
 }
+#offer{
+	width: 100vw;
+	min-width: 400px;
+	text-align: center;
+	font-size: 13px;
+}
+#ban{
+	color: blue;
+	text-decoration: underline;
+}
 @media (max-width:670px) {
 	#upper_nav,#lower_nav{
 		width: 100vw;
