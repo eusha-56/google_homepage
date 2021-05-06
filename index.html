@@ -9,46 +9,49 @@
 <body>
 
 <div id="top">
-	<div>
-		<a href="https://accounts.google.com" class="link top_left"><img src="image/user.png" id="user"></a>
-		<a href="https://about.google/intl/en/products/#all-products" class="link top_left"><img src="image/menu.png" id="menu"></a>
 
-		<a href="https://images.google.com" class="link top_left">Images</a>
-		<a href="https://mail.google.com/" class="link top_left">Gmail</a>
+	<div id="top_left">
+
+		<a href="https://mail.google.com/" class="link top_left_link">Gmail</a>
+		<a href="https://images.google.com" class="link top_left_link">Images</a>
+
+		<a href="https://about.google/intl/en/products/#all-products" class="link top_left_img"><img src="image/menu.png" id="menu"></a>
+		<a href="https://accounts.google.com" class="link top_left_img"><img src="image/user.png" id="user"></a>
+		
 	</div>
 
 
 	<div>
 		<div class="center">
-			<img src="image/logo.png" id="logo">
+			<img src="image/logo.png">
 		</div>
-		<div class="center">
-			<img src="image/searching.png" class="sb_img" onclick="Search()">
-			<input type="text" placeholder="Search.." id="search_bar">
+		<div class="center sb">
+			<img src="image/searching.png" class="sb_img" onclick="window.open('https://www.google.com/search?q='+document.getElementById('sb').value,'_self')">
+			<input type="text" placeholder="Search.." id="sb" onsubmit="window.open('https://www.google.com/search?q='+document.getElementById('sb').value,'_self')">
 			<img src="image/voice_search.png" class="sb_img" onclick="alert('Sorry this feature is not available now')">
 		</div>
-		<div class="center">
-			<a href="https://eusha-56.github.io/google_homepage/" class="link middle">Google Search</a>
-			<a href="https://www.google.com/doodles" class="link middle">I'm Feeling Lucky</a>
+		<div class="center middle">
+			<a href="https://eusha-56.github.io/google_homepage/" class="middle_link">Google Search</a>
+			<a href="https://www.google.com/doodles" class="middle_link">I'm Feeling Lucky</a>
 		</div>
 	</div>
 </div>
-<div style="margin-top: -3.5cm;">
+
+
+<div>
 	<div id="bottom">
 		<div id="upper_nav">
 			<a href="https://about.google.com" class="link nav" >About</a>
 			<a href="https://ads.google.com" class="link nav" >Advertising</a>
 			<a href="https://business.google.com" class="link nav" >Business</a>
+			<a href="https://google.com/search/howsearchworks" class="nav link">How Search works</a>
 		</div>
 		<div id="lower_nav">
-			<a href="https://google.com/search/howsearchworks" class="nav link">How Search Works</a>
 			<a href="https://policies.google.com/privacy" class="link nav" >Privacy</a>
 			<a href="https://policies.google.com/terms" class="link nav" >Terms</a>
 			<a href="https://myaccount.google.com" class="link nav" >Settings</a>
 		</div>
 	</div>
 </div>
-	<script type="text/javascript" src="script.js"></script>
-
 </body>
 </html>
