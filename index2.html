@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google</title>
+    <link rel="shortcut icon" href="image/google.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div id="top">
+
+        <div id="top_left">
+
+            <a href="https://mail.google.com/" class="link top_left_link">Gmail</a>
+            <a href="https://images.google.com" class="link top_left_link">Images</a>
+
+            <a href="https://about.google/intl/en/products/#all-products" class="link top_left_img"><img
+                    src="image/menu.png" id="menu"></a>
+            <a href="https://accounts.google.com" class="link top_left_img"><img src="image/user.png" id="user"></a>
+
+        </div>
+
+
+        <div>
+            <div class="center">
+                <img src="image/logo.png">
+            </div>
+            <div class="center sb">
+                <img src="image/searching.png" class="sb_img"
+                    onclick="window.open('https://www.google.com/search?q='+document.getElementById('sb').value,'_self')">
+                <input type="text" placeholder="Search.." id="sb"
+                    onsubmit="window.open('https://www.google.com/search?q='+document.getElementById('sb').value,'_self')">
+                <img src="image/voice_search.png" class="sb_img"
+                    onclick="alert('Sorry this feature is not available now')">
+            </div>
+
+            <div class="center middle">
+                <a href="https://eusha-56.github.io/google_homepage/" class="middle_link">Google Search</a>
+                <a href="https://www.google.com/doodles" class="middle_link">ভাগ্যবান অনুভব করছি</a>
+            </div>
+
+            <p id="offer">Google এই ভাষায় উপলব্ধ: <a href="index.html" id="ban">English</a></p>
+
+        </div>
+    </div>
+
+
+    <div>
+        <div id="bottom">
+            <div id="upper_nav">
+                <a href="https://about.google.com" class="link nav">সম্পর্কে</a>
+                <a href="https://ads.google.com" class="link nav">বিজ্ঞাপন</a>
+                <a href="https://business.google.com" class="link nav">ব্যবসা</a>
+                <a href="https://google.com/search/howsearchworks" class="nav link">সার্চ কীভাবে কাজ করে</a>
+            </div>
+            <div id="lower_nav">
+                <a href="https://policies.google.com/privacy" class="link nav">গোপনীয়তা</a>
+                <a href="https://policies.google.com/terms" class="link nav">শর্তাদি</a>
+                <a href="https://myaccount.google.com" class="link nav">সেটিংস</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
